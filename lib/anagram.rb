@@ -16,6 +16,8 @@ def match(words_array)
     if
     sorted_array == sorted_word
       sorted_word[sorted_word]
+    else
+      []
 end
 end
 end
