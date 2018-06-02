@@ -14,8 +14,8 @@ def match(words_array)
     sorted_array = w.split("")
     sorted_word = @word.split("")
   #  sorted_array.collect do |x|
-array = sorted_array.delete_if{|elem| elem == "[]"}
  if sorted_array.sort == sorted_word.sort
+   array = sorted_array.delete_if{|elem| elem = []}
 array.join
 
     else
