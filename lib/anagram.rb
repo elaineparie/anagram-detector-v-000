@@ -13,13 +13,9 @@ def match(words_array)
   words_array.each do |w|
     sorted_array = w.split("").sort
     sorted_word = @word.split("").sort
-    sorted_array.each do |x|
-      if x == sorted_word
-      sorted_word
-    else
-      []
-end
-end
+binding.pry
+
+
 end
 end
 
