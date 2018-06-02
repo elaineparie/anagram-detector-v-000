@@ -16,11 +16,6 @@ def match(words_array)
   #  sorted_array.collect do |x|
      if sorted_array.sort == sorted_word.sort
       array = sorted_array.join
-       array.collect do |elem|
-         if elem = []
-           elem.delete
-
-        #x
     else
     []
   end
