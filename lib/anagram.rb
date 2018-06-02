@@ -15,7 +15,7 @@ def match(words_array)
     sorted_word = @word.split("").sort
     sorted_array.each do |x|
       if x == sorted_word
-      x
+      sorted_word
     else
       []
 end
