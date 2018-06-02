@@ -17,7 +17,7 @@ def match(words_array)
      if sorted_array.sort == sorted_word.sort
       array = sorted_array.join
       array.delete("[]")
-      array
+  
     else
     []
   end
