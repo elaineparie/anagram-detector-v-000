@@ -10,10 +10,10 @@ def initialize(word)
 end
 
 def match(words_array)
-  words_array.each do |w|
+  words_array.collect do |w|
     sorted_array = w.split("").sort
     sorted_word = @word.split("").sort
-    sorted_array.each do |x|
+    sorted_array.collect do |x|
       if x == sorted_word
         x
     else
