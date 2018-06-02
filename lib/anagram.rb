@@ -19,11 +19,12 @@ def match(words_array)
        array.collect do |elem|
          if elem = []
            elem.delete
-           
+
         #x
     else
     []
   end
+end
 end
 end
 
