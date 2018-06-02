@@ -11,10 +11,10 @@ end
 
 def match(words_array)
   words_array.collect do |w|
-    sorted_array = w.split("").sort
-    sorted_word = @word.split("").sort
+    sorted_array = w.split("")
+    sorted_word = @word.split("")
   #  sorted_array.collect do |x|
-     if sorted_array == sorted_word
+     if sorted_array.sort == sorted_word.sort
        sorted_array.unsort
         #x
     else
