@@ -17,6 +17,7 @@ def match(words_array)
  if sorted_array.sort == sorted_word.sort
       array = sorted_array
     #  array.delete_if{|elem| elem.empty?}
+    array.join(", ")
 
     else
     []
