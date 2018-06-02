@@ -10,7 +10,7 @@ def initialize(word)
 end
 
 def match(words_array)
-  words_array.map do |w|
+  words_array.flat_map do |w|
     sorted_array = w.split("")
     sorted_word = @word.split("")
   #  sorted_array.collect do |x|
