@@ -19,7 +19,6 @@ def match(words_array)
     else
     []
   end
-  array.delete_if{ |elem| elem == []}
 end
 end
 
