@@ -12,8 +12,8 @@ end
 def match(words_array)
   words_array.each do |w|
     sorted_array = w.split("").sort
-    binding.pry
     sorted_word = @word.split("")
+    binding.pry
     sorted_word.sort
     if
     sorted_array == sorted_word
