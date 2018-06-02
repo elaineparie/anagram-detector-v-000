@@ -13,8 +13,8 @@ def match(words_array)
     sorted_array = w.split("").sort
     sorted_word = @word.split("")
     sorted_word.sort
-    sorted_array.find(sorted_word)
-      sorted_array
+    sorted_array[sorted_word]
+      #sorted_array
 end
 end
 
