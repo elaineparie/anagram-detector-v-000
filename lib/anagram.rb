@@ -14,7 +14,7 @@ def match(words_array)
     sorted_word = @word.split("")
     sorted_word.sort
     if a_l_array == sorted_word
-      sorted_word
+      #sorted_word
 end
 end
 end
