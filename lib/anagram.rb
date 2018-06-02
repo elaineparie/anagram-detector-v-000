@@ -16,9 +16,7 @@ def match(words_array)
     if sorted_array.find(sorted_word)
     else
       []
-
-
-
+end
 end
 end
 
