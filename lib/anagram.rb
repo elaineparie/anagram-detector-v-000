@@ -13,7 +13,10 @@ def match(words_array)
   words_array.each do |w|
     sorted_array = w.split("").sort
     sorted_word = @word.split("").sort
-binding.pry
+    if sorted_array.find(sorted_word)
+    else
+      []
+
 
 
 end
